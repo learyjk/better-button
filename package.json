@@ -1,0 +1,30 @@
+{
+  "name": "better-button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "esbuild index.ts --bundle --sourcemap --outdir=dist",
+    "format": "prettier index.ts -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learyjk/better-button.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learyjk/better-button/issues"
+  },
+  "homepage": "https://github.com/learyjk/better-button#readme",
+  "devDependencies": {
+    "esbuild": "^0.15.13",
+    "serve": "^14.1.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "gsap": "^3.11.3"
+  }
+}
